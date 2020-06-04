@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+}
+body {
+
+}
+
+header  {
+  background-image: url(design-assets/bgk-header.png);
+  color: white;
+  position: relative;
+  margin-bottom: 130px;
+  min-height: 500px;
+}
+
+.greet {
+  text-align: center;
+  padding: 50px;
+}
+
+/*general*/
+.hr hr {
+  width: 80px;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  color: lightblue;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.nobull {
+  list-style-type: none;
+}
+.nav {
+  color: lightblue;
+  text-align: center;
+  margin: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.greettext {
+  width: 600px;
+}
+
+.btn {
+  border: 2px solid lightblue;
+  color: lightblue;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+#home {
+  color: lightblue;
+}
+#home:hover {
+  color: gray;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.nav li a:hover {
+  color: gray;
+}
+
+
+.flex img {
+  align-self: flex-start;
+  margin: 20px;
+}
+.flex nav {
+  align-self: flex-end;
+  margin: 10px;
+}
+.flex p {
+  align-self: flex-start;
+}
+
+#video {
+  background-image: url(design-assets/bgk-middle.png);
+  height: 400px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 230px;
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+#team {
+  background-image: url(design-assets/bgk-header.png);
+  margin-bottom: 130px;
+  min-height: 500px;
+  color: white;
+}
+.imgsize {
+  width: 150px;}
+
+footer {
+  background-image: url(design-assets/bgk-footer.png);
+  color: white;
+  min-height: 300px;
+}
